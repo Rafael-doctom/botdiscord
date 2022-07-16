@@ -34,6 +34,7 @@ header{
     padding-bottom: 20px;
 }
 main{
+    line-height: 2em;
     border-radius: 0px 0px 30px 30px;
     background-color: #0202025d;
     text-align: justify;
@@ -49,28 +50,29 @@ main > h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 footer{
-    height: 7em;
+    position: relative;
+    width: auto;
+    margin: auto;
+    height: 8em;
+    padding: auto;
     box-shadow: 8px 8px 6px rgba(0, 0, 0, 0.397);
     border-radius: 30px 0px 30px 0px;
     background-color: var(--cor4);
-    margin-top: 22%;
 }
 footer > a{
-    padding: 0px 10px 10px 20px;
+    display: inline-block;
+    padding: auto;
     font-size: 1.2em;
     font-family: Karla;
 }
 img{
-    padding: 20px 0px 0px 20px;
+    height: 100%;
+    padding: 20px auto 15px 20px;
     display: inline-block;
     min-height: 56px;
     max-height: 156px;
 }
-.footerimg{
-    padding: 0px 0px 0px 90px;
-    margin: auto;
-    max-height: 66px;
-}
+
 aside > h2{
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.712);
     color: var(--cor2);
@@ -80,7 +82,7 @@ a{
 }
 a.toplink{
     background-color: var(--cor3);
-display: inline-block;
+    display: inline-block;
 }
 h1{
     text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.281);
@@ -104,10 +106,30 @@ nav > a:hover{
     background-color: var(--cor1);
     transition: 2s;
 }
+.mainlink{
+    color: rgb(81, 144, 146);
+}
+.mainlink:hover{
+    color: var(--cor5);
+    background-color: var(--cor1);
+    transition: 2s;
+    border-radius: 30px;
+    padding: 5px;
+}
+.mainlink:active{
+    color: red;
+}
+
 p{
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.712);
     color: rgb(255, 255, 255);
 }
 .devfoto{
+
+    right: 25%;
+    left: 25%;
+
+    position: absolute;
+    margin: auto;
     max-height: 80px;
 }
