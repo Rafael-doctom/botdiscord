@@ -1,0 +1,135 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Roboto+Mono&display=swap');
+
+:root {
+    --cor1: #568FE8;
+    --cor2: #5ABDF2;
+    --cor3: #5DD1DB;
+    --cor4: #5AF2D5;
+    --cor5: #56E8A2;
+
+}
+*{
+    margin: 0em;
+    padding: 0em;
+    font-weight: bold;
+}
+body{
+    background-repeat: no-repeat;
+    margin: auto;
+    max-width: 1000px;
+    background-size: cover;
+    background-color: var(--cor1);
+    background-image: url(imagens/wallpaper004.jpg);
+    
+    height: 97vh;
+    background-color: rgba(255, 255, 255, 0);
+}
+header{
+    background-image: linear-gradient(187deg, var(--cor3), var(--cor5) );
+    font-family: Roboto Mono, Arial, Helvetica, sans-serif;
+    display: flex;
+    background-size: cover;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.363);
+    padding-bottom: 20px;
+}
+main{
+    line-height: 2em;
+    border-radius: 0px 0px 30px 30px;
+    background-color: #0202025d;
+    text-align: justify;
+    font-size: 1.5em;
+    font-family: Karla, Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 7em 2em 5em 2em;
+}
+main > h2{
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.712);
+    padding-bottom: 0em;
+    color: var(--cor1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    position: relative;
+    width: auto;
+    margin: auto;
+    height: 8em;
+    padding: auto;
+    box-shadow: 8px 8px 6px rgba(0, 0, 0, 0.397);
+    border-radius: 30px 0px 30px 0px;
+    background-color: var(--cor4);
+}
+footer > a{
+    display: inline-block;
+    padding: auto;
+    font-size: 1.2em;
+    font-family: Karla;
+}
+img{
+    height: 100%;
+    padding: 20px auto 15px 20px;
+    display: inline-block;
+    min-height: 56px;
+    max-height: 156px;
+}
+
+aside > h2{
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.712);
+    color: var(--cor2);
+}
+a{
+    text-decoration: none;
+}
+a.toplink{
+    background-color: var(--cor3);
+    display: inline-block;
+}
+h1{
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.281);
+    font-size: 3em;
+    padding: 50px 0px;
+}
+header > h2{
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.281);
+    padding: 90px 90px 20px 0px;
+}
+nav{
+    margin: auto;
+}
+nav > a{
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 20px;
+}
+nav > a:hover{
+    color: var(--cor5);
+    background-color: var(--cor1);
+    transition: 2s;
+}
+.mainlink{
+    color: rgb(81, 144, 146);
+}
+.mainlink:hover{
+    color: var(--cor5);
+    background-color: var(--cor1);
+    transition: 2s;
+    border-radius: 30px;
+    padding: 5px;
+}
+.mainlink:active{
+    color: red;
+}
+
+p{
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.712);
+    color: rgb(255, 255, 255);
+}
+.devfoto{
+
+    right: 25%;
+    left: 25%;
+
+    position: absolute;
+    margin: auto;
+    max-height: 80px;
+}
